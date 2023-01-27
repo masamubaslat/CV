@@ -1,12 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
 .sides{
     float: left;
+    height: 100vh;
 }
 .right{
-    width: 70%;
+    width: 65%;
 }
 .left{
-    width: 30%;
+    width: 35%;
+    background-color: rgb(60, 60, 60);
+    color: white;
 }
 .clrfix{
     clear: left;
+}
+ul{
+    list-style: none !important;
+}
+h2{
+    margin-top: 30px;
+}
+.contacts{
+    padding-top: 40px;
+    text-align: end;
+}
+.contacts a{
+    color: white;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+}
+p{
+    color: rgb(66, 66, 66);
+}
+.left h2{
+    margin-top: 50px;
 }
