@@ -1,0 +1,12 @@
+.sides{
+    float: left;
+}
+.right{
+    width: 70%;
+}
+.left{
+    width: 30%;
+}
+.clrfix{
+    clear: left;
+}
